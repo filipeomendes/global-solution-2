@@ -4,9 +4,9 @@ export default function Rodape() {
             <section>
                 <div>
                     <nav>
-                        <a href=""><Image src="/github.png" alt="Logo preto do Github" width={30} height={30}/></a>
-                        <a href=""><Image src="/instagram.png" alt="Logo preto do Instagram" width={30} height={30}/></a>
-                        <a href=""><Image src="/facebook.png" alt="Logo preto do Facebook" width={30} height={30} /></a>
+                        <a href="https://github.com/filipeomendes/global-solution-2.git"><Image src="/github.png" alt="Logo preto do Github" width={30} height={30}/></a>
+                        <a href="https://www.instagram.com/complex.wrld/"><Image src="/instagram.png" alt="Logo preto do Instagram" width={30} height={30}/></a>
+                        <a href="https://www.facebook.com"><Image src="/facebook.png" alt="Logo preto do Facebook" width={30} height={30} /></a>
                     </nav>
                 </div>
                 <div>
