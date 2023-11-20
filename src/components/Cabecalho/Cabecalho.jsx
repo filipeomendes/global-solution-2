@@ -6,7 +6,11 @@ export default function Cabecalho() {
             </div>
             <div>
                 <nav>
-                    <Link></Link>
+                    <Link>O que é Meningite?</Link>
+                    <Link>Como identificar</Link>
+                    <Link>Quem somos</Link>
+                    <Link>Tratamento e Prevenção</Link>
+                    <Link>Ajuda</Link>
                 </nav>
             </div>
         </header>
