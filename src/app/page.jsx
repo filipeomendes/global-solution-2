@@ -1,4 +1,5 @@
-
+import Image from "next/image"
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -11,7 +12,10 @@ export default function Home() {
           </p>
         </div>
         <div>
-          <button></button>
+          <Image src="/brain.svg" alt="Imagem ilustrativa do sistema nervoso de uma pessoa" width={130} height={130}/>
+        </div>
+        <div>
+          <Link href="/paginas/ajuda"><button>Precisa de ajuda? Clique aqui!</button></Link>
         </div>
       </section>
     </main>
