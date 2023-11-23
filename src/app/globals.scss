@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/ Estilização do Cabecalho */
+
+header {
+    display: flex;
+
+    .texto-meningite {
+        justify-content: left;
+        margin-left: 2rem;
+
+        .menu-nav {
+            
+            justify-content: right;
+        }
+    }
+}
