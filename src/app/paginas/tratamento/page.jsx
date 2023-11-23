@@ -6,7 +6,7 @@ export default function Tratamento() {
     return (
         <main>
             <section className="tratamento">
-                <div>
+                <div className="texto">
                     <h1>Tratamento</h1>
                     <p>O tratamento da meningite é uma abordagem multifacetada que depende do agente causador subjacente, seja ele viral, bacteriano, fúngico ou protozoário. A rapidez no início do tratamento é crucial para melhorar o prognóstico e reduzir o risco de complicações. Aqui estão algumas considerações gerais sobre o tratamento da meningite:</p>
                     <p>O <b>diagnóstico Preciso</b> da causa específica da meningite é fundamental para orientar o tratamento adequado. Isso muitas vezes envolve exames clínicos, análises de sangue e, em casos suspeitos, a punção lombar para coleta de líquido cerebroespinhal.</p>
@@ -17,10 +17,10 @@ export default function Tratamento() {
                 </div>
             </section>
             <section className="prevencao">
-                <div>
+                <div className="texto">
                     <h1>Prevenção da Meningite:</h1>
                     <p>A prevenção da meningite é uma estratégia essencial, especialmente considerando a seriedade da doença e suas potenciais complicações. Aqui estão algumas medidas importantes para prevenir a meningite:</p>
-                    <div>
+                    <div className="texto-secundario">
                         <h3>Vacinação:</h3>
                         <p>A vacinação é uma ferramenta fundamental na prevenção da meningite. Vacinas específicas contra cepas comuns de bactérias causadoras, como o Hib e o meningococo, estão disponíveis e são administradas conforme o calendário de imunização recomendado.</p>
                         <h3>Higiene Pessoal:</h3>

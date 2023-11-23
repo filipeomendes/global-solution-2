@@ -25,7 +25,7 @@ export default function Ajuda() {
   };
 
   return (
-    <main>
+    <main className="form-ajuda">
       <h1>Preciso de Ajuda!</h1>
       <form onSubmit={handleSubmit}>
         <label>
