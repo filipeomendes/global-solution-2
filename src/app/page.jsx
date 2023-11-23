@@ -21,7 +21,7 @@ export default function Home() {
           </p>
         </div>
         <div className="brain-img">
-          <Image src="/brain.svg" alt="Imagem ilustrativa do sistema nervoso de uma pessoa" width={130} height={130}/>
+          <Image src="/brain.svg" alt="Imagem ilustrativa do sistema nervoso de uma pessoa" width={300} height={300}/>
         </div>
       </section>
       <section>
@@ -38,6 +38,9 @@ export default function Home() {
             <p><b>Meningite Protozoária:</b>Esta forma é rara e é causada por protozoários, sendo o Naegleria fowleri um exemplo. Geralmente associada a exposições específicas, como o contato com água contaminada. Os casos são extremamente raros, mas a meningite protozoária é muitas vezes fatal.</p>
           </div>
           <p>Compreender os diferentes tipos de meningite é fundamental para um diagnóstico preciso e a implementação de tratamentos adequados. A prevenção, por meio de vacinação e práticas de higiene, desempenha um papel crucial na redução do risco de infecção por esses diversos agentes patogênicos.</p>
+        </div>
+        <div className="headache.jpg">
+        <Image src="/headache.jpg" alt="Pessoa com dor de cabeça" width={600} height={380}/>
         </div>
       </section>
     </main>

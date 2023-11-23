@@ -27,8 +27,8 @@ export default function Identificar() {
                     <p>Identificar precocemente os sintomas da meningite é crucial para iniciar o tratamento imediatamente. Se houver suspeita de meningite, especialmente ao observar vários dos sintomas mencionados, é essencial procurar atendimento médico de urgência. A meningite bacteriana, em particular, pode progredir rapidamente, tornando a prontidão para a busca de assistência fundamental para um prognóstico positivo.</p>
                     <p>A observação cuidadosa dos sintomas e a resposta rápida diante de qualquer sinal de alerta são a chave para lidar eficazmente com a meningite. O diagnóstico definitivo geralmente requer exames médicos, como análise de líquido cerebroespinhal por meio de uma punção lombar, e o tratamento precoce pode fazer a diferença na recuperação do paciente.</p>
                 </div>
-                <div className="consulta-img">
-                    <Image src="/doctor.jpg" alt="medico em consulta com pacientes" width={600} height={380}/>
+                <div className="temperature-img">
+                    <Image src="/temperature.jpg" alt="Medindo a temperatura da criança" width={600} height={380}/>
                 </div>
             </section>
         </main>

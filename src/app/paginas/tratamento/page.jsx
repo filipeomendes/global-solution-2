@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export const metadata = {
     title: 'Tratamento e Prevenção'
 }
@@ -14,6 +16,9 @@ export default function Tratamento() {
                     <p>Além da terapia específica para combater a infecção, o tratamento de suporte desempenha um papel crucial. Isso pode incluir medicações para aliviar a febre e a dor, fluidos intravenosos para prevenir a desidratação e, em casos graves, suporte respiratório.</p>
                     <p>A gravidade da meningite, especialmente a bacteriana, muitas vezes requer hospitalização para monitoramento intensivo. Em alguns casos, a internação é essencial para garantir o tratamento adequado e evitar complicações.</p>
                     <p>O tratamento da meningite também abrange o controle de complicações potenciais, como convulsões, danos cerebrais, edema cerebral e choque. A detecção precoce e o gerenciamento ativo dessas complicações são fundamentais para otimizar os resultados.</p>
+                </div>
+                <div className="consulta-img">
+                    <Image src="/doctor.jpg" alt="medico em consulta com pacientes" width={600} height={380}/>
                 </div>
             </section>
             <section className="prevencao">
@@ -32,6 +37,9 @@ export default function Tratamento() {
                     </div>
                     <p>A conscientização sobre os sintomas da meningite e a educação sobre práticas preventivas são fundamentais. Esse conhecimento não apenas capacita indivíduos a reconhecerem sinais precoces da doença, mas também contribui para uma resposta rápida e eficaz em casos suspeitos. Em resumo, a combinação dessas estratégias é essencial para reduzir o risco de contrair meningite, sublinhando a importância da prevenção como um componente fundamental no enfrentamento dessa condição complexa.</p>
                     <p>Em resumo, o tratamento da meningite envolve a abordagem direcionada à causa específica, enquanto a prevenção se concentra na vacinação, higiene pessoal e medidas específicas em situações de risco. A combinação dessas estratégias é fundamental para reduzir a incidência e minimizar os impactos dessa condição grave.</p>
+                </div>
+                <div className="vaccine-img">
+                <Image src="/vaccine.jpg" alt="Mulher recebendo vacina" width={600} height={380}/>
                 </div>
             </section>
         </main>
