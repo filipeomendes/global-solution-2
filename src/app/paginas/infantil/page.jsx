@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export const metadata = {
     title: 'Meningite Infantil'
 }
@@ -5,12 +7,17 @@ export const metadata = {
 export default function Infantil() {
     return (
         <main>
-            <section>
+            <section className="meningite-infantil">
                 <h1>Meningite Infantil:</h1>
-                <div>
+                <div className="meningite-infantil-div1">
                     <p>
                     A meningite infantil é uma preocupação significativa de saúde, pois afeta crianças em seus primeiros anos de vida. Assim como em adultos, essa condição refere-se à inflamação das meninges, as membranas que envolvem o cérebro e a medula espinhal. No entanto, a resposta do sistema imunológico das crianças e os desafios únicos associados à infância tornam a meningite infantil uma preocupação particular.
                     </p>
+                </div>
+                <div className="children-img">
+                    <Image src="/children.jpg" alt="Imagem de uma criança doente" width={600} height={380}/>
+                </div>
+                <div>
                     <h3>Agentes Causadores:</h3>
                     <p>
                     A meningite infantil pode ser desencadeada pelos mesmos agentes infecciosos que afetam adultos, incluindo vírus e bactérias. Entre as bactérias que frequentemente causam meningite em crianças, destacam-se o Streptococcus pneumoniae (pneumococo), Neisseria meningitidis (meningococo) e Haemophilus influenzae tipo b (Hib). As infecções virais, como enterovírus e herpes simplex, também são causas comuns de meningite infantil.
