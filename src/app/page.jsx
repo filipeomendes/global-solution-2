@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function Home() {
   return (
     <main>
-      <section>
+      <section className="o-que-e">
         <div className="texto">
           <h1>O que é meningite</h1>
           <p>
@@ -21,27 +21,40 @@ export default function Home() {
           </p>
         </div>
         <div className="brain-img">
-          <Image src="/brain.svg" alt="Imagem ilustrativa do sistema nervoso de uma pessoa" width={300} height={300}/>
+          <Image src="/brain.svg" alt="Imagem ilustrativa do sistema nervoso de uma pessoa" width={450} height={450}/>
         </div>
       </section>
-      <section>
+      <section className="sec-botao">
         <div className="botao-ajuda">
-          <Link href="/paginas/ajuda"><button>Precisa de ajuda? Clique aqui!</button></Link>
+            <Link href="/paginas/ajuda"><button>Precisa de ajuda? Clique aqui!</button></Link>
+          </div>
+      </section>
+      <section className="tipos">
+        <div className="headache-img">
+          <Image src="/headache.jpg" alt="Pessoa com dor de cabeça" width={500} height={660}/>
         </div>
         <div className="texto">
           <h1>Tipos de Meningite</h1>
           <p>Existem diversos tipos de meningite, sendo a classificação principalmente determinada pelo agente causador da inflamação das meninges. Cada tipo apresenta características distintas, impactando a severidade da condição e o tratamento adequado. Aqui estão alguns dos principais tipos de meningite:</p>
           <div className="texto-secundario">
-            <p><b>Meningite Viral:</b>A meningite viral é a forma mais comum da doença e é geralmente causada por vírus como enterovírus, herpes simples e caxumba. Embora menos grave do que a meningite bacteriana, ainda pode causar desconforto significativo. O tratamento, muitas vezes, envolve cuidados de suporte para aliviar os sintomas.</p>
-            <p><b>Meningite Bacteriana:</b>A meningite bacteriana é mais grave e uma emergência médica. Bactérias como Neisseria meningitidis (meningococo), Streptococcus pneumoniae (pneumococo) e Haemophilus influenzae são frequentes causadoras dessa forma da doença. O tratamento requer a administração rápida de antibióticos e, em alguns casos, hospitalização.</p>
-            <p><b>Meningite Fúngica:</b>Causada por fungos como Cryptococcus e Candida, a meningite fúngica é menos comum e geralmente afeta pessoas com sistemas imunológicos comprometidos. O tratamento envolve antifúngicos específicos, mas a resposta ao tratamento pode ser mais desafiadora.</p>
-            <p><b>Meningite Protozoária:</b>Esta forma é rara e é causada por protozoários, sendo o Naegleria fowleri um exemplo. Geralmente associada a exposições específicas, como o contato com água contaminada. Os casos são extremamente raros, mas a meningite protozoária é muitas vezes fatal.</p>
+            <ul>
+              <li>
+                <p><b>Meningite Viral:</b>A meningite viral é a forma mais comum da doença e é geralmente causada por vírus como enterovírus, herpes simples e caxumba. Embora menos grave do que a meningite bacteriana, ainda pode causar desconforto significativo. O tratamento, muitas vezes, envolve cuidados de suporte para aliviar os sintomas.</p>
+              </li>
+              <li>
+                <p><b>Meningite Bacteriana:</b>A meningite bacteriana é mais grave e uma emergência médica. Bactérias como Neisseria meningitidis (meningococo), Streptococcus pneumoniae (pneumococo) e Haemophilus influenzae são frequentes causadoras dessa forma da doença. O tratamento requer a administração rápida de antibióticos e, em alguns casos, hospitalização.</p>
+              </li>
+              <li>
+                <p><b>Meningite Fúngica:</b>Causada por fungos como Cryptococcus e Candida, a meningite fúngica é menos comum e geralmente afeta pessoas com sistemas imunológicos comprometidos. O tratamento envolve antifúngicos específicos, mas a resposta ao tratamento pode ser mais desafiadora.</p>
+              </li>
+              <li>
+                <p><b>Meningite Protozoária:</b>Esta forma é rara e é causada por protozoários, sendo o Naegleria fowleri um exemplo. Geralmente associada a exposições específicas, como o contato com água contaminada. Os casos são extremamente raros, mas a meningite protozoária é muitas vezes fatal.</p>
+              </li>
+            </ul>
           </div>
           <p>Compreender os diferentes tipos de meningite é fundamental para um diagnóstico preciso e a implementação de tratamentos adequados. A prevenção, por meio de vacinação e práticas de higiene, desempenha um papel crucial na redução do risco de infecção por esses diversos agentes patogênicos.</p>
         </div>
-        <div className="headache.jpg">
-        <Image src="/headache.jpg" alt="Pessoa com dor de cabeça" width={600} height={380}/>
-        </div>
+
       </section>
     </main>
   )
