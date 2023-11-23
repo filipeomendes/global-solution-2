@@ -15,6 +15,20 @@ export default function Rodape() {
                     <p className="texto-footer">Todos os direitos reservados ©2023 - Complex</p>
                 </div>
             </section>
+            <section className="integrantes">
+                <div className="membros">
+                    <h2>Integrantes:</h2>
+                    <p>Fernando Paparelli Aracena - rm551022 </p>
+                    <p>Filipe de Oliveira Mendes - rm98959 </p>
+                    <p>Miron Gonçalves Martins - rm551801 </p>
+                    <p>Paulo Henrique de Andrade Junior - rm99714</p>
+                    <p>Vinicius Pedro de Souza - rm550907</p>
+                </div>
+                <div className="turma">
+                    <h2>Turma:</h2>
+                    <p>1TDSPV</p>
+                </div>
+            </section>
         </footer>
     )
 }
