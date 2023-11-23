@@ -23,7 +23,6 @@ export default function Identificar() {
                     <p>A observação cuidadosa dos sintomas e a resposta rápida diante de qualquer sinal de alerta são a chave para lidar eficazmente com a meningite. O diagnóstico definitivo geralmente requer exames médicos, como análise de líquido cerebroespinhal por meio de uma punção lombar, e o tratamento precoce pode fazer a diferença na recuperação do paciente.</p>
                 </div>
             </section>
-            
         </main>
     )
 }
