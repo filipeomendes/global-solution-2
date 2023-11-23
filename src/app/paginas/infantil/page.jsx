@@ -4,7 +4,8 @@ export const metadata = {
 
 export default function Infantil() {
     return (
-        <>
-        </>
+        <main>
+            
+        </main>
     )
 }
