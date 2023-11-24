@@ -4,7 +4,6 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import Image from "next/image"
 
-// Função principal do componente
 export default function Login() {
   const router = useRouter();
 
@@ -17,11 +16,9 @@ export default function Login() {
   });
 
   useEffect(() => {
-    // Use este efeito para monitorar mudanças em msgStatus
     if (msgStatus === "Login realizado com SUCESSO!") {
       setClassLoginMsg("login-suc");
       setTimeout(() => {
-        // Adicione uma verificação para redirecionar apenas se não estiver autenticado
         if (!sessionStorage.getItem("token-user")) {
           router.push("/paginas/ajuda");
         }
@@ -58,7 +55,6 @@ export default function Login() {
           setMsgStatus("Login realizado com sucesso!");
           setTimeout(() => {
             setMsgStatus("");
-            // Adicione uma verificação para redirecionar apenas se não estiver autenticado
             if (!sessionStorage.getItem("token-user")) {
               router.push("/paginas/ajuda");
             }
@@ -75,7 +71,6 @@ export default function Login() {
           }, 2000);
         }
       } else {
-        // Exiba uma mensagem de erro detalhada obtida da resposta
         const errorMessage = await response.text();
         setMsgStatus(`Erro ao realizar o login`);
         setTimeout(() => {

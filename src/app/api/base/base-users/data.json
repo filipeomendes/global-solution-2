@@ -1,7 +1,6 @@
 {
     "usuarios": [{
         "id": 1,
-        "name": "Urielle Felix",
         "email": "complex.vital.gs@gmail.com",
         "senha": "gs1234"
     }]
