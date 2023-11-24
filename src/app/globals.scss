@@ -523,6 +523,128 @@ main {
             }
         }
     }
+
+
+
+    /* Estilizando Error */
+
+    .error-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+        flex-direction: column;
+      
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+      
+        h2 {
+            font-size: 1.5rem;
+            color: #007bff;
+            margin-top: 0.5rem;
+        
+            a {
+            text-decoration: underline;
+            cursor: pointer;
+            }
+        }
+    }
+
+
+
+    /* Estilizando o login */
+
+    .login {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .texto-login {
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        margin-left: 10rem;
+      
+        .logo-porto-login {
+          position: absolute;
+          top: 2rem;
+          left: 10rem;
+          margin-bottom: 15rem;
+        }
+      
+        .titulo-login {
+          font-size: 2rem;
+          margin-bottom: 3rem;
+        }
+      
+        .subtitulo-login {
+          margin-bottom: 3rem;
+          color: rgb(107, 107, 107);
+        }
+      
+        .form {
+          max-width: 500px;
+          width: 500px;
+          padding: 20px;
+          background-color: #f3f3f3;
+          border-radius: 5px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      
+          .form-control {
+            margin-bottom: 3rem;
+      
+            label {
+              display: block;
+              margin-bottom: 1rem;
+              font-weight: bold;
+            }
+      
+            input {
+              width: 30rem;
+              padding: 10px;
+              border: 1px solid #ccc;
+              border-radius: 3px;
+            }
+          }
+        }
+      
+        .paragrafo-login {
+          p {
+            text-align: center;
+            margin-top: 2rem;
+      
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      
+        .botao {
+          text-align: center;
+      
+          button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            padding: 10px 20px;
+            cursor: pointer;
+            width: 31rem;
+            font-weight: bold;
+      
+            &:hover {
+              background-color: #0056b3;
+            }
+          }
+        }
+          
+        
+      }
 }
 
 
