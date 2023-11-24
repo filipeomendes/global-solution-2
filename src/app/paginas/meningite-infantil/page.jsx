@@ -8,14 +8,20 @@ export default function Infantil() {
     return (
         <main>
             <section className="meningite-infantil">
-                <h1>Meningite Infantil:</h1>
+                
                 <div className="texto">
+                    <h1>Meningite Infantil:</h1>
                     <p>
                     A meningite infantil é uma preocupação significativa de saúde, pois afeta crianças em seus primeiros anos de vida. Assim como em adultos, essa condição refere-se à inflamação das meninges, as membranas que envolvem o cérebro e a medula espinhal. No entanto, a resposta do sistema imunológico das crianças e os desafios únicos associados à infância tornam a meningite infantil uma preocupação particular.
                     </p>
                 </div>
                 <div className="children-img">
                     <Image src="/children.jpg" alt="Imagem de uma criança doente" width={600} height={380}/>
+                </div>
+            </section>
+            <section className="sec-2">
+                <div className="children-2-img">
+                    <Image src="/children-2.jpg" alt="Crianças se abraçando" width={600} height={850}/>
                 </div>
                 <div className="texto-secundario">
                     <h3>Agentes Causadores:</h3>
@@ -30,9 +36,6 @@ export default function Infantil() {
                     <p>Dada a natureza rápida da progressão da meningite, o diagnóstico e o tratamento precoces são críticos. Os profissionais de saúde consideram a avaliação clínica, exames de sangue e, em casos suspeitos, a punção lombar para análise do líquido cerebroespinhal. O tratamento geralmente envolve antibióticos ou antivirais, dependendo da causa subjacente.</p>
                     <h3>Cuidados Específicos:</h3>
                     <p>A meningite infantil exige cuidados específicos, considerando a vulnerabilidade das crianças. A hospitalização pode ser necessária, principalmente em casos de meningite bacteriana, para monitorar de perto os sintomas e fornecer tratamento adequado. Além disso, os pais e cuidadores devem estar atentos aos sinais de alerta e procurar assistência médica imediatamente se houver suspeita de meningite.</p>
-                </div>
-                <div className="batimentos.jpg">
-                    <Image src="/batimentos.jpg" alt="Medico verificando batimentos cardiacos da criança" width={600} height={380}/>
                 </div>
             </section>
         </main>

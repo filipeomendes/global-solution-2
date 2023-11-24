@@ -26,7 +26,7 @@ export default function Home() {
       </section>
       <section className="sec-botao">
         <div className="botao-ajuda">
-            <Link href="/paginas/ajuda"><button>Precisa de ajuda? Clique aqui!</button></Link>
+            <Link href="/paginas/ajuda"><button>Precisa de ajuda? Clique aqui!<Image src="seta.svg" alt="simbolo de uma seta" width={20} height={20}/></button></Link>
           </div>
       </section>
       <section className="tipos">

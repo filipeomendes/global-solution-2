@@ -10,11 +10,11 @@ export default function Cabecalho() {
             </div>
             <div className="menu">
                 <nav className="menu-nav">
-                    <Link href="/paginas/infantil">Meningite infantil</Link>
-                    <Link href="/paginas/sintomas">Como identificar</Link>
+                    <Link href="/paginas/meningite-infantil">Meningite infantil</Link>
+                    <Link href="/paginas/como-identificar">Como identificar</Link>
                     <Link href="/paginas/tratamento">Tratamento e Prevenção</Link>
                     <Link href="/paginas/ajuda">Ajuda</Link>
-                    <Link href="/paginas/quemsomos">Quem somos</Link>
+                    <Link href="/paginas/quem-somos">Quem somos</Link>
                 </nav>
             </div>
         </header>

@@ -42,11 +42,13 @@ header {
 
 
 
-/* Estilizando o conteudo principal */
+/* Estilizando as paginas */
 
 main {
     margin-top: 1rem;
     background: #ffffff;
+
+    /* Estilizando o conteudo principal */
 
     .o-que-e {
         display: flex;
@@ -95,6 +97,12 @@ main {
                 &:hover {
                 background-color: #334d79;
                 }
+
+                img{
+                    margin-left: 1rem;
+                    align-items: center;
+                    justify-content: center;
+                }
             }
         }
     }
@@ -140,7 +148,391 @@ main {
             }
         }
     }
+
+
+    /* Pagina de Meningite Infantil */
+
+    .meningite-infantil{
+        display: flex;
+        padding-top: 4rem;
+
+        .texto {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-size: 1rem;
+            margin: 2rem 10rem 0rem 10rem;
+            
+            h1{
+                display: flex;
+                font-size: 4rem;
+                justify-content: center;
+            }
+
+            p{
+                display: flex;
+                font-size: 2rem;
+                margin: 3rem;
+            }
+        }
+
+        .children-img{
+            display: flex;
+            margin-right: 10rem;
+            margin-bottom: 2rem;
+
+            img{
+                border-radius: 10px;
+            }
+        }
+    }
+
+    .sec-2{
+        display: flex;
+        padding-top: 4rem;
+        align-items: center;
+
+        .children-2-img{
+            display: flex;
+            margin-bottom: 2rem;
+            margin-left: 10rem;
+
+            img{
+                border-radius: 10px;
+            }
+        }
+
+        .texto-secundario{
+            font-size: 1rem;
+            margin: 2rem 10rem 0rem 10rem;
+    
+            h3 {
+                display: flex;
+                font-size: 2rem;
+            }
+    
+            p {
+                display: flex;
+                font-size: 1.6rem;
+                margin-top: 2rem;
+                margin-bottom: 4rem;
+            }
+        }
+    }
+
+
+    /*´Pagina Como Identificar */
+
+    .identificando{
+        display: flex;
+        padding-top: 4rem;
+
+        .temperature-img{
+            display: flex;
+            margin: 6rem 0rem 2rem 10rem;
+
+            img{
+                border-radius: 10px;
+            }
+        }
+
+        .texto {
+            font-size: 1rem;
+            margin: 2rem 10rem 0rem 10rem;
+            
+            h1{
+                display: flex;
+                font-size: 4rem;
+                justify-content: center;
+            }
+
+            p{
+                display: flex;
+                font-size: 2rem;
+                margin: 3rem;
+            }
+        }
+    }
+
+    .sintomas{
+        display: flex;
+        margin-top: 8rem;
+        flex-direction: column;
+        
+        .sintomas-img{
+            display: flex;
+            justify-content: center;
+            background-color: #00B7AE;
+        }
+
+        .texto {
+            font-size: 1rem;
+            margin: 4rem 40rem 0rem 40rem;
+            
+            h1{
+                display: flex;
+                font-size: 4rem;
+                justify-content: center;
+            }
+            
+            h4{
+                display: flex;
+                font-size: 2rem;
+                margin-left: 3rem;
+                color: #476FBC;
+            }
+
+            p{
+                display: flex;
+                font-size: 2rem;
+                margin: 3rem;
+            }
+        }
+
+        .sintomas-lista{
+            display: flex;
+            flex-direction: row;
+
+            p{
+                font-size: 1.6rem;
+            }
+        }
+    }
+
+
+
+
+    /* Pagina Tratamento e Prevencao */
+
+    .tratamento{
+        display: flex;
+        padding-top: 4rem;
+
+        .texto {
+            font-size: 1rem;
+            margin: 2rem 30rem 0rem 30rem;
+            
+            h1{
+                display: flex;
+                font-size: 4rem;
+                justify-content: center;
+            }
+
+            p{
+                display: flex;
+                font-size: 2rem;
+                margin: 3rem;
+            }
+        }
+    }
+
+    .prevencao{
+        display: flex;
+        padding-top: 4rem;
+        flex-direction: column;
+        background-color: #476FBC;
+
+        .texto{
+            margin: 4rem 30rem 0rem 30rem;
+                
+            
+            h1{
+                display: flex;
+                font-size: 4rem;
+                justify-content: center;
+                color: #fff;
+                margin-bottom: 6rem;
+            }
+            
+           
+        }
+
+        .prevencao-lista{
+            display: flex;
+            flex-direction: row;
+
+            p{
+                font-size: 1.6rem;
+            }
+        }
+
+        .conteiner{
+            background-color: #fff;
+            border-radius: 20px 20px 30px 20px;
+            padding-bottom: 5rem;
+            margin-bottom: 10rem;
+
+            .vaccine-img{
+                display: flex;
+                justify-content: center;
+
+                img{
+                    border-radius: 10px 10px 0px 0px;
+                }
+            }
+
+            h3{
+                display: flex;
+                font-size: 2rem;
+                margin-left: 3rem;
+                color: #334d79;
+            }
+
+            p{
+                display: flex;
+                font-size: 2rem;
+                margin: 3rem;
+            }
+        }
+    }
+
+
+    /* Estilizando o formulario de Ajuda */
+
+    .form-ajuda {
+        background-color: #476FBC;
+        padding-bottom: 4rem;
+        padding-top: 2rem;
+
+        .titulo-form{
+            display: flex;
+            font-size: 4rem;
+            justify-content: center;
+            color: #fff;
+            margin-bottom: 6rem;
+            margin-top: 2rem;
+        }
+
+        .form {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 5rem;
+            margin: 0rem 40rem 5rem 40rem;
+            background-color: #f3f3f3;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+              label {
+                display: block;
+                margin: 2rem 0rem 1rem 0rem;
+                font-weight: bold;
+                font-size: 1.5rem;
+                
+              }
+        
+              input {
+                margin-left: 2rem;
+                
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 3px;
+              }
+
+              select{
+                margin-left: 2rem;
+              }
+
+            button {
+                display: flex;
+                align-items: center;
+                background-color: #476FBC;
+                color: #ffffff;
+                padding: 10px 20px;
+                font-size: 2rem;
+                text-align: center;
+                border-radius: 100px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+        
+                &:hover {
+                background-color: #334d79;
+                }
+            }
+        }
+    }
+
+
+    /* Estilizando pagina Quem Somos */
+    .quem-somos{
+        display: flex;
+        padding-top: 4rem;
+        flex-direction: column;
+        background-color: #476FBC;
+        padding-bottom: 5rem;
+        color: #fff;
+
+        h1{
+            display: flex;
+            font-size: 4rem;
+            justify-content: center;
+        }
+
+        p{
+            display: flex;
+            font-size: 2rem;
+            margin: 3rem 20rem 0rem 20rem;
+        }
+    }
+
+    .doacao{
+        display: flex;
+        background-color: #476FBC;
+
+
+        .conteiner{
+            display: flex;
+            width: 100%;
+            background-color: #fff;
+            margin: 5rem;
+            border-radius: 10px;
+            justify-content: space-between;
+
+            .doacao-img{
+                display: flex;
+    
+                img{
+                    border-radius: 10px 0px 0px 10px;
+                }
+            }
+
+            .doador{
+                display: flex;
+                padding-top: 4rem;
+                flex-direction: column;
+
+                h1{
+                    display: flex;
+                    font-size: 4rem;
+                    justify-content: center;
+                }
+        
+                p{
+                    display: flex;
+                    font-size: 2rem;
+                    margin: 1.5rem 20rem 0rem 20rem;
+                    font-weight: 600;
+                }
+
+                .doacao-div{
+                    p{
+                        margin-top: 9rem;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
 }
+
+
+
+
+
+
+
+
+
 
 /* Estilização do Rodapé */
 
