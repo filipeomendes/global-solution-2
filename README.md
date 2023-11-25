@@ -46,3 +46,23 @@ Login para administradores na rota http://localhost:3000/login-adm
 
 
 Link Repositorio: https://github.com/filipeomendes/global-solution-2.git
+
+
+Link Vercel: https://vercel.com/filipeomendes/global-solution-2
+
+             https://global-solution-2-rho.vercel.app
+
+
+
+Integrantes:
+
+Filipe de Oliveira Mendes RM98959
+
+Fernando Paparelli Aracena RM551022
+
+Paulo Henrique de Andrade RM99714
+
+Miron Gonçalves Martins RM551801
+
+Vinicius Pedro de Souza RM550907
+
