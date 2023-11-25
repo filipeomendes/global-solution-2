@@ -1,0 +1,53 @@
+{
+    "clinicas":[{
+      "nomeFantasia": "Clínica A",
+      "email": "clinicaA@email.com",
+      "cnpj": "12345678901234",
+      "cep": "12345-678",
+      "cidade": "Cidade A",
+      "uf": "SP",
+      "logradouro": "Rua A",
+      "numero": "123"
+    },
+    {
+      "nomeFantasia": "Clínica B",
+      "email": "clinicaB@email.com",
+      "cnpj": "23456789012345",
+      "cep": "23456-789",
+      "cidade": "Cidade B",
+      "uf": "BA",
+      "logradouro": "Rua B",
+      "numero": "456"
+    },
+    {
+      "nomeFantasia": "Clínica C",
+      "email": "clinicaC@email.com",
+      "cnpj": "34567890123456",
+      "cep": "34567-890",
+      "cidade": "Cidade C",
+      "uf": "DF",
+      "logradouro": "Rua C",
+      "numero": "789"
+    },
+    {
+      "nomeFantasia": "Clínica D",
+      "email": "clinicaD@email.com",
+      "cnpj": "45678901234567",
+      "cep": "45678-901",
+      "cidade": "Cidade D",
+      "uf": "MG",
+      "logradouro": "Rua D",
+      "numero": "1011"
+    },
+    {
+      "nomeFantasia": "Clínica E",
+      "email": "clinicaE@email.com",
+      "cnpj": "56789012345678",
+      "cep": "56789-012",
+      "cidade": "Cidade E",
+      "uf": "SP",
+      "logradouro": "Rua E",
+      "numero": "1213"
+      }]
+}
+  

@@ -6,7 +6,7 @@ export const metadata = {
 
 export default function Error() {
   return (
-    <main className="error-page">
+    <main>
       <div className="error-div">
         <h1>ERROR 404 - PÁGINA NÃO EXISTENTE!</h1>
         <h2>
