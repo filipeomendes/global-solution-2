@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import Link from 'next/link';
 
 export default function Ajuda() {
   const [formData, setFormData] = useState({
@@ -140,7 +141,7 @@ export default function Ajuda() {
                 />
               </label>
             </div>
-            <button type="submit" name="submit">Enviar</button>
+            <Link href="/paginas/ajuda/maps"><button type="submit" name="submit">Enviar</button></Link>
           </form>
         </div>
       </section>

@@ -1,9 +1,10 @@
-// pages/adicionar.jsx
-import { useState } from 'react';
-import styles from '../styles/cadastroClinica.module.scss';
+"use client";
+import { useState } from "react";
 
 
-export default CadastroClinicaPage;
+export default CadastroClinicaPage () ;
+
+
 const CadastroClinicaPage = () => {
   const [clinica, setClinica] = useState({
     nomeFantasia: '',
@@ -26,8 +27,6 @@ const CadastroClinicaPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Lógica para adicionar a nova clínica ao JSON ou à API
-    // Redirecionar de volta para a página de clínicas
   };
 
   return (
@@ -113,5 +112,6 @@ const CadastroClinicaPage = () => {
     </main>
   );
 };
+
 
 
