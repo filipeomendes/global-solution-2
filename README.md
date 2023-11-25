@@ -53,6 +53,9 @@ Link Vercel: https://vercel.com/filipeomendes/global-solution-2
              https://global-solution-2-rho.vercel.app
 
 
+Link Video: https://www.youtube.com/watch?v=SLF-8YMnXGs
+
+
 
 Integrantes:
 
